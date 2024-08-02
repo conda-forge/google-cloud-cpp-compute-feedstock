@@ -23,6 +23,7 @@ cmake ${CMAKE_ARGS} \
     -DCMAKE_INSTALL_LIBDIR=lib \
     -DProtobuf_PROTOC_EXECUTABLE=$BUILD_PREFIX/bin/protoc \
     -DGOOGLE_CLOUD_CPP_GRPC_PLUGIN_EXECUTABLE=$BUILD_PREFIX/bin/grpc_cpp_plugin \
-    -DGOOGLE_CLOUD_CPP_ENABLE_WERROR=OFF
+    -DGOOGLE_CLOUD_CPP_ENABLE_WERROR=OFF \
+    -DGOOGLE_CLOUD_CPP_WITH_MOCKS=OFF
 cmake --build build
 echo "$(date -u '+%Y-%m-%dT%H:%M:%SZ'): DONE - Building compute"
