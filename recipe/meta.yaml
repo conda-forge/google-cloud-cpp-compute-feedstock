@@ -115,5 +115,4 @@ about:
 extra:
   feedstock-name: google-cloud-cpp-compute
   recipe-maintainers:
-    - coryan
     - conda-forge/google-cloud-cpp
