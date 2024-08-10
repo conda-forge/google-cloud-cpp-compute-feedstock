@@ -199,5 +199,4 @@ Feedstock Maintainers
 =====================
 
 * [@conda-forge/google-cloud-cpp](https://github.com/orgs/conda-forge/teams/google-cloud-cpp/)
-* [@coryan](https://github.com/coryan/)
 
