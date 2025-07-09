@@ -12,8 +12,8 @@ build:
   number: 0
 requirements:
   build:
+    - {{ stdlib('c') }}
     - {{ compiler('c') }}
-    - {{ stdlib("c") }}
     - {{ compiler('cxx') }}
     - cmake
     - ninja
@@ -38,8 +38,8 @@ outputs:
         - libgoogle-cloud =={{ version }}
     requirements:
       build:
+        - {{ stdlib('c') }}
         - {{ compiler('c') }}
-        - {{ stdlib("c") }}
         - {{ compiler('cxx') }}
         - cmake
         - ninja
@@ -80,8 +80,8 @@ outputs:
         - {{ pin_subpackage("libgoogle-cloud-compute", max_pin="x.x") }}
     requirements:
       build:
+        - {{ stdlib('c') }}
         - {{ compiler('c') }}
-        - {{ stdlib("c") }}
         - {{ compiler('cxx') }}
         - cmake
         - ninja
