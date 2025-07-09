@@ -46,6 +46,7 @@ outputs:
       host:
         - libgoogle-cloud-devel =={{ version }}
         - libabseil
+        - libgrpc       # [osx]
         - libprotobuf
     test:
       commands:
